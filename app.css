@@ -1,0 +1,67 @@
+#ubtlogo {
+    max-width: 100px;
+    max-height: 100px;
+}
+
+body{
+    background-color: #7fffd4;
+}
+
+#paragrafi {
+    color: red;
+    
+}
+
+#foto {
+    display: inline-block;
+    text-align: left;
+}
+#teksti {
+    display: inline-block;
+    width: 85%;
+    text-align: right;
+}
+
+#loginform {
+    background-color: #329da8;
+    width: 250px;
+    height: auto;
+    margin: 100px auto;
+    text-align: center;
+    border-radius: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.borclass {
+    border-left: 2px solid #808080;
+    padding-left: 8px;
+    font-weight: bold;
+}
+
+#log {
+    padding-right: 40px;
+}
+
+#reg {
+    border-right: 2px solid #808080;
+    padding-right: 8px;
+}
+
+input, textarea {
+    background-color : #d3d3d3;
+    border-radius: 10px;
+    border: none;
+    padding-left: 10px;
+}
+
+input[type="submit"] , textarea {
+    background-color: #4caf50;
+}
+footer{
+    text-align: center;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    padding-bottom: 10px;
+}
